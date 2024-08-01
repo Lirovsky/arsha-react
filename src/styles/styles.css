@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Brands */
+.grayscaleEdit {
+    transition: all .5s;
+    filter: grayscale(100);
+    &:hover {
+        filter: grayscale(0);
+        transform: scale(1.2);
+    }
+}
+.grayscalePortfolio {
+    filter: grayscale(1) brightness(.5);
+    transition: 0.3s linear;
+}
+.grayscalePortfolio:hover {
+    filter: grayscale(0);
+}
+.active-menu {
+    color: #0ea5e9;
+}
