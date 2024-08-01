@@ -84,7 +84,7 @@ export default function Footer() {
 
     return(
         <div className="pt-10 md:pt-20">
-            <div className='container px-20 mx-auto md:py-5 lg:flex lg:px-5'>
+            <div className='container px-10 mx-auto md:py-5 lg:flex lg:px-5'>
                 <div className="flex flex-col justify-evenly gap-10 mx-auto lg:flex-row">
                     <div className="w-full lg:w-2/6">
                         <h3 className="pb-3 text-2xl font-bold text-sky-700">
@@ -160,12 +160,9 @@ export default function Footer() {
                 </div>
             </div>
             <div className="py-5 mt-10 text-white bg-sky-700">
-                <div className="flex flex-col justify-between gap-5 px-32 md:flex-row">
+                <div className="text-center">
                     <p>
                         © Copyright <span className="font-bold">Arsha</span>. All Rights Reserved
-                    </p>
-                    <p>
-                        Designed by UgaBuga123
                     </p>
                 </div>
 

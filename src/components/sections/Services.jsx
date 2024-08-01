@@ -32,7 +32,7 @@ export default function Services() {
         <div id="services" className="bg-gray-100">
             <div className="container mx-auto py-14">
                 <Title title={"Services"}/>
-                <p className="text-center text-lg py-5">
+                <p className="text-center text-lg pt-5 pb-16 px-10 md:px-0">
                     Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.
                 </p>
                 <div className="flex flex-wrap justify-center gap-5 mt-10 px-10 xl:gap-10">

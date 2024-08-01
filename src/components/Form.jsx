@@ -8,7 +8,7 @@ export default function Form() {
     }
     return(
         <div className="bg-white border-y-8 border-sky-500 md:px-10">
-            <div className='p-10 mx-auto'>
+            <div className='px-5 py-10 mx-auto'>
                     <form
                         onSubmit={handleSubmit(handleFormSubmit)}
                         className="flex flex-col gap-3"

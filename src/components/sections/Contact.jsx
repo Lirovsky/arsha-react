@@ -13,7 +13,7 @@ export default function Contact() {
                     Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.
                 </p>
                 <div className="flex flex-col gap-10 mt-10 px-10 lg:flex-row lg:items-stretch">
-                    <div className="p-10 w-full text-lg border-y-8 border-sky-500 bg-white lg:w-8/12">
+                    <div className="px-5 py-10 w-full text-lg border-y-8 border-sky-500 bg-white lg:w-8/12">
                         <div className="flex items-center">
                             <a href="#" className="bg-sky-100 text-sky-500 text-xl p-3 rounded-full hover:bg-sky-700 hover:text-white">
                                 <BsGeoAlt />

@@ -78,15 +78,16 @@ export default function Portfolio() {
                 </p>
                 <div className="colums-1 sm:columns-2 lg:columns-3 xl:columns-4">
                     {projects.map((item) => (
-                        <div key={item.id} className="relative group my-5 px-10 first:mt-0 sm:px-0">
+                        <div key={item.id} className="relative group my-5 mx-10 first:mt-0 sm:px-0">
                             <a href={item.link}>
                                 <img src={item.img} alt="" className="grayscalePortfolio rounded-lg"/>
+
+                                <div className="w-full text-center opacity-0 absolute left-0 bottom-0 rounded-b-lg bg-sky-800/50 transition-all duration-300 group-hover:opacity-100">
+                                    <h5 className="p-3 font-bold uppercase text-white">
+                                        {item.name}
+                                    </h5>
+                                </div>
                             </a>
-                            <div className="w-full text-center opacity-0 absolute left-0 bottom-0 rounded-b-lg bg-sky-800/50 transition-all duration-300 group-hover:opacity-100">
-                                <h5 className="p-3 font-bold uppercase text-white">
-                                    {item.name}
-                                </h5>
-                            </div>
                         </div>
                     ))}
                 </div>

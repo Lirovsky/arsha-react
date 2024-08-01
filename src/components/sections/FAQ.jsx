@@ -23,17 +23,17 @@ export default function FAQ() {
                     />
                     <Accordion
                         icon={<FaRegQuestionCircle />}
-                        title="Dolor sit amet consectetur adipiscing elit?"
+                        title="Dolor sit amet consectetur elit ugbe bit alon?"
                         answer="Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis."
                     />
                     <Accordion
                         icon={<FaRegQuestionCircle />}
-                        title="Tempus quam pellentesque nec nam aliquam sem et tortor consequat?"
+                        title="Tempus quam pellentesque nec rasbas turg hit?"
                         answer="Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in."
                     />
                     <Accordion
                         icon={<FaRegQuestionCircle />}
-                        title="Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor?"
+                        title="Tortor vitae lugus ber ig purus faucibus ornare?"
                         answer="Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque."
                     />
                 </div> 

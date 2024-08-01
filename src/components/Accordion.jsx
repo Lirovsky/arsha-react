@@ -24,8 +24,8 @@ export default function Accordion({ icon, title, answer }) {
                 </p>
                 
                 {accordionOpen 
-                    ? <IoIosArrowDown size={30} className='-rotate-180 transition-all duration-300 text-sky-500 '/> 
-                    : <IoIosArrowDown size={30} className='transition-all duration-300 text-sky-500'/>
+                    ? <IoIosArrowDown className='text-4xl -rotate-180 transition-all duration-300 text-sky-500 '/> 
+                    : <IoIosArrowDown className='text-4xl transition-all duration-300 text-sky-500'/>
                 }
             </button>
             <div className={`grid overflow-hidden transition-all duration-300 
