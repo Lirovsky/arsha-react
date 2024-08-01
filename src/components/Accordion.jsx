@@ -16,7 +16,7 @@ export default function Accordion({ icon, title, answer }) {
                 onClick={handleAccordion} 
                 className="flex justify-between w-full"
             >
-                <p className={`flex items-center text-lg text-start transition-all duration-300 hover:text-sky-500 ${accordionOpen ? 'text-sky-500': ''}`}>
+                <p className={`flex items-center text-lg text-start pe-5 transition-all duration-300 hover:text-sky-500 ${accordionOpen ? 'text-sky-500': ''}`}>
                     <span className='me-2 text-sky-500 text-2xl font-bold'>
                         {icon}
                     </span>

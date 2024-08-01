@@ -5,7 +5,7 @@ export default function Header() {
         <div id="home" className=" w-full pt-20 pb-10 bg-sky-700 ">
             <div className='container flex flex-col items-center justify-evenly gap-10 px-10 mx-auto text-center md:flex-row md:text-left md:px-0 lg:px-5'>
                 <div className="w-full m-auto py-4 md:order-2">
-                    <img src={ImageHeader} alt='Desenho de de diversos eletrônicos e planilhas' className="w-full mx-auto"/>
+                    <img src={ImageHeader} alt='Desenho de de diversos eletrônicos e planilhas' className="w-full mx-auto animatedEdit"/>
                 </div>
                 <div className="w-full mx-auto text-white md:ps-5">
                     <h2 className="font-bold text-2xl pb-4 lg:text-4xl">

@@ -8,7 +8,7 @@ export default function Questions() {
         <div className="w-full pt-20 pb-10 bg-gray-100">
             <div className='container px-10 mx-auto flex flex-col items-center justify-evenly gap-10 lg:flex-row md:text-left md:px-0 lg:px-5'>
                 <div className="w-full m-auto py-4 lg:order-2">
-                    <img src={ImageAccordion} alt='Imagem de um banco de dados' className="w-full mx-auto"/>
+                    <img src={ImageAccordion} alt='Imagem de um banco de dados' className="w-full mx-auto animatedEdit"/>
                 </div>
                 <div className="w-full mx-auto md:ps-5">
                     <h3 className="text-2xl text-sky-600 md:text-4xl">
